@@ -8,7 +8,7 @@ class App extends Component {
         super(props)
 
         this.state = {
-            name: 'Letícia',
+            name: 'AnaLuiza',
             counter: 0
         }
     }
