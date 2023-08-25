@@ -1,0 +1,44 @@
+.container {
+    max-width: 100vw;
+    min-height: 100vh;
+    background-color: #eee;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.post {
+    background-color: #fff;
+    box-shadow: 01px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    transition: transform 150ms ease-in-out;
+}
+
+.post .text {
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px 4px 0 0;
+}
+
+.post:hover {
+    transform: scale(1.07);
+}
+
+#txtSearch {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: 600;
+}
